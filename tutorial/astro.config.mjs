@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://tristanjoshuaalba.github.io/tristanalba-portfolio/',
-    base: '/tutorial'
+    site: 'https://tristanjoshuaalba.github.io',
+    base: '/tristanalba-portfolio//tutorial'
 });
