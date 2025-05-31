@@ -1,0 +1,2 @@
+[ ] Github Actions that will be triggered when I push to `main`
+[ ] Basics with Working with Astro
