@@ -16,4 +16,5 @@ export default defineConfig({
 		}),
 		tailwind(),
 	],
+	output: "server"
 });
