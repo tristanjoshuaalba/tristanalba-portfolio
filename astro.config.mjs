@@ -2,7 +2,7 @@ import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
-// import cloudflare from "@astrojs/cloudflare";
+import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,5 +16,6 @@ export default defineConfig({
 		}),
 		tailwind(),
 	],
-	output: "server"
+	output: "server",
+	adapter: cloudflare(),
 });
