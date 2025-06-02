@@ -6,7 +6,7 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://tristanjoshuaalba.github.io/',
+	site: 'https://tristanjoshuaalba.github.io/tristanalba-portfolio',
 	integrations: [
 		mdx(),
 		sitemap({
