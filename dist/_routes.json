@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "include": [
+    "/",
+    "/ships",
+    "/_image",
+    "/rss.xml",
+    "/ships/*",
+    "/thoughts",
+    "/writings",
+    "/robots.txt",
+    "/thoughts/*",
+    "/writings/*",
+    "/sitemap-main.xml",
+    "/sitemap-index.xml",
+    "/sitemap-ships.xml",
+    "/sitemap-thoughts.xml",
+    "/sitemap-writings.xml"
+  ],
+  "exclude": []
+}
