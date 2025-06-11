@@ -17,5 +17,8 @@ export default defineConfig({
 		tailwind(),
 	],
 	output: "static",
+    build: {
+        outDir: 'docs', // Specify output folder for GitHub Pages
+    },
 	// adapter: cloudflare(),
 });
