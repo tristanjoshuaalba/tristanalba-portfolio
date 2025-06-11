@@ -16,7 +16,7 @@ export default defineConfig({
 		}),
 		tailwind(),
 	],
-	output: "static",
+	output: "hybrid",
     build: {
         outDir: 'docs', // Specify output folder for GitHub Pages
     },
