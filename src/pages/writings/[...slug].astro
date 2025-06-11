@@ -14,6 +14,14 @@ if (!post) return Astro.redirect('/404');
 const { Content } = await post.render();
 
 const readingTime = getReadingTime(post.body);
+
+export async function getStaticPaths() {
+    // Replace 'example1' and 'example2' with your actual slugs
+    return [
+        { params: { slug: 'example1' } },
+        { params: { slug: 'example2' } },
+    ];
+}
 ---
 
 <WritingLayout {...post.data} readingTime={readingTime}>
