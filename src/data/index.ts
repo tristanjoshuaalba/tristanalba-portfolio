@@ -1,5 +1,5 @@
-export const SITE_TITLE = "Sanju's Space";
-export const SITE_DESCRIPTION = "A internet space for Sanju.";
+export const SITE_TITLE = "Residuals - Tristan Alba";
+export const SITE_DESCRIPTION = "Notes and artifacts left behind in the pursuit of insight.";
 
 export interface MenuItem {
 	label: string;
@@ -8,7 +8,7 @@ export interface MenuItem {
 
 export const menuItems: MenuItem[] = [
 	{
-		label: "sanju",
+		label: "tristan",
 		url: "/",
 	},
 	{
@@ -25,14 +25,14 @@ export const menuItems: MenuItem[] = [
 	},
 ];
 
-export const title = "Sanju's Space";
-export const description = "A internet space for Sanju.";
+export const title = "Residuals - Tristan Alba";
+export const description = "Notes and artifacts left behind in the pursuit of insight.";
 export const image = "/images/ogimage.png";
-export const url = "https://sanju.sh";
+export const url = "https://www.tristanalba.com";
 
 export const ogImage = {
 	src: "/images/ogimage.png",
-	alt: "Sanju's Space",
+	alt: "Residuals - Tristan Alba",
 };
 
 
