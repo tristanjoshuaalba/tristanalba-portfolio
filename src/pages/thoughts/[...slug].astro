@@ -7,8 +7,12 @@ import { getReadingTime } from '@utils/index';
 const posts = await getCollection('thought');
 type Props = CollectionEntry<'thought'>;
 
+// const { slug } = Astro.params;
+// const post = posts.find((page) => page.slug === slug);
+
 const { slug } = Astro.params;
-const post = posts.find((page) => page.slug === slug);
+const slugStr = Array.isArray(slug) ? slug.join('/') : slug;
+const post = posts.find((page) => page.slug === slugStr);
 
 if (!post) return Astro.redirect('/404');
 
@@ -16,11 +20,11 @@ const readingTime = getReadingTime(post.body);
 const { Content } = await post.render();
 
 export async function getStaticPaths() {
-    // Replace 'example1' and 'example2' with your actual slugs
-    return [
-        { params: { slug: 'example1' } },
-        { params: { slug: 'example2' } },
-    ];
+    const posts = await getCollection('thought');
+    posts.forEach(post => console.log(post.slug));
+    return posts.map(post => ({
+    params: { slug: post.slug }
+}));
 }
 ---
 
