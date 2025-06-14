@@ -1,5 +1,5 @@
-export const SITE_TITLE = "Residuals - Tristan Alba";
-export const SITE_DESCRIPTION = "Notes and artifacts left behind in the pursuit of insight.";
+export const SITE_TITLE = "Tristan Alba";
+export const SITE_DESCRIPTION = "Documenting experiments, systems, and thinking in motion";
 
 export interface MenuItem {
 	label: string;
@@ -25,14 +25,14 @@ export const menuItems: MenuItem[] = [
 	},
 ];
 
-export const title = "Residuals - Tristan Alba";
-export const description = "Notes and artifacts left behind in the pursuit of insight.";
+export const title = "Tristan Alba";
+export const description = "Documenting experiments, systems, and thinking in motion";
 export const image = "/images/ogimage.png";
 export const url = "https://www.tristanalba.com";
 
 export const ogImage = {
 	src: "/images/ogimage.png",
-	alt: "Residuals - Tristan Alba",
+	alt: "Tristan Alba",
 };
 
 
@@ -67,18 +67,18 @@ export const products = [
 export const socialLinks = [
 	{
 		label: "@x",
-		url: "https://x.com/spikeysanju",
+		url: "https://x.com/trstnlb?s=21",
 	},
 	{
 		label: "email",
-		url: "mailto:work@sanju.sh",
+		url: "mailto:tristan.j.alba@gmail.com",
 	},
 	{
 		label: "github",
-		url: "https://github.com/spikeysanju",
+		url: "https://github.com/tristanjoshuaalba",
 	},
 	{
 		label: "linkedin",
-		url: "https://www.linkedin.com/in/imsanju",
+		url: "https://www.linkedin.com/in/tristanjoshuaalba/",
 	},
 ];
