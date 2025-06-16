@@ -38,30 +38,30 @@ export const ogImage = {
 
 export const products = [
 	{
-		name: "Fli.so",
-		url: "https://fli.so",
+		name: "gamaylang",
+		url: "https://gamaylang.com",
 		image: "/products/fli.png",
 	},
 	{
-		name: "Uiino",
-		url: "https://uiino.com",
+		name: "wishlet.me",
+		url: "https://wishlet.me",
 		image: "/products/uiino.png",
 	},
 	{
-		name: "SticAI",
-		url: "https://sticai.com",
+		name: "uhaift",
+		url: "https://uhaift.com",
 		image: "/products/sticai.png",
 	},
-	{
-		name: "Dun",
-		url: "https://dunsuite.com",
-		image: "/products/dun.png",
-	},
-	{
-		name: "DunTasks",
-		url: "https://duntasks.com",
-		image: "/products/duntasks.png",
-	},
+	// {
+	// 	name: "Dun",
+	// 	url: "https://dunsuite.com",
+	// 	image: "/products/dun.png",
+	// },
+	// {
+	// 	name: "DunTasks",
+	// 	url: "https://duntasks.com",
+	// 	image: "/products/duntasks.png",
+	// },
 ];
 
 export const socialLinks = [
