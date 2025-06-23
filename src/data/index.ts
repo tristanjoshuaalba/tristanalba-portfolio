@@ -11,18 +11,18 @@ export const menuItems: MenuItem[] = [
 		label: "tristan",
 		url: "/",
 	},
-	{
-		label: "writings",
-		url: "/writings",
-	},
-	{
-		label: "thoughts",
-		url: "/thoughts",
-	},
-	{
-		label: "ships",
-		url: "/ships",
-	},
+	// {
+	// 	label: "writings",
+	// 	url: "/writings",
+	// },
+	// {
+	// 	label: "thoughts",
+	// 	url: "/thoughts",
+	// },
+	// {
+	// 	label: "ships",
+	// 	url: "/ships",
+	// },
 ];
 
 export const title = "Tristan Alba";
