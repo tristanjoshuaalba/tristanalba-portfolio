@@ -20,8 +20,8 @@ export const menuItems: MenuItem[] = [
 	// 	url: "/thoughts",
 	// },
 	// {
-	// 	label: "ships",
-	// 	url: "/ships",
+	// 	label: "projects",
+	// 	url: "/projects",
 	// },
 ];
 
